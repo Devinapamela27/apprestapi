@@ -5,12 +5,12 @@ const conn = mysql.createConnection ({
     host:'localhost',
     user:'root',
     password: '',
-    database: 'db_restapi'
+    database: 'db_restapi',
 });
 
 conn.connect((err)=>{
     if(err) throw err;
-    console.log('mysql terkoneksi');
+    console.log('Mysql terkoneksi');
 });
 
 module.exports = conn;

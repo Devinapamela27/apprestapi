@@ -12,6 +12,6 @@ var routes = require('./routes');
 routes(app);
 
 app.listen(3000, () => {
-    console.log(`server started on port`);
+    console.log('server started on port');
 });
 express

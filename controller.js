@@ -5,5 +5,5 @@ var connection = require('./koneksi');
 
 
 exports.index = function (req,res){
-    response.ok("Rest API berjalan lancar")
+    response.ok("Rest API berjalan lancar",res)
 };
